@@ -47,7 +47,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  bG = createSprite(1200, windowHeight / 2 +75);
+  bG = createSprite(1200, windowHeight / 2 +110);
   bG.addImage("bG", bG_Img);
   bG.scale = 0.4;
   bG.velocityX = -0.5;
